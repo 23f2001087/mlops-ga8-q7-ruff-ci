@@ -1,11 +1,9 @@
-import sys
-import os   
 import json
+import sys
 
 
 def analyze(data):
-    unused = 42
-    items = json.loads(data)   
+    items = json.loads(data)
     for item in items:
         print(item)
     return len(items)
